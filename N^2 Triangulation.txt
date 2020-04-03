@@ -1,0 +1,7 @@
+Pick the left most and bottom most point. Say it is v, neighbors are u and w.
+
+Either u-w is a diagonal.
+Otherwise there are some points inside uvw triangle. Take the point which is furthest most from uw.
+Also consider if there is any point on the uw segment.
+
+Partition into two polygons. And solve it recursively.

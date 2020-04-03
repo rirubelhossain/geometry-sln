@@ -1,0 +1,82 @@
+Geometric Formula
+
+Triangle:
+half-perimeter P = (a + b + c) / 2
+Area S = aHa/2=absin(C)/2=sqrt(P(P-a)(P-b)(P-c))
+median Ma=sqrt(2(b^2+c^2)-a^2)/2=sqrt(b^2+c^2+2bccos(A))/2
+angle bisector Ta =sqrt(bc((b+c)^2-a^2))/(b+c)=2bccos(A/2)/(b+c)
+perpendicular Ha =bsin(C)=csin(B)=sqrt(b^2-((a^2+b^2-c^2)/(2a))^2)
+inscribed circle radius r=S/P=asin(B/2)sin(C/2)/sin((B+C)/2)
+						 =4Rsin(A/2)sin(B/2)sin(C/2)=sqrt((P-a)(P-b)(P-c)/P)
+						 =Ptan(A/2)tan(B/2)tan(C/2)
+circumcircle radius R=abc/(4S)=a/(2sin(A))=b/(2sin(B))=c/(2sin(C))
+
+Quadrilateral:
+D1, D2 diagonal M diagonal midpoint connection, A is a diagonal angle.
+a ^ 2 + b ^ 2 + c ^ 2 + d ^ 2 = D1 ^ 2 + D2 ^ 2 +4 M ^ 2
+S = D1D2sin (A) / 2
+(Hereinafter quadrilateral inscribed in circle )
+ac + bd = D1D2
+S = sqrt ((P-a) (P-b) (P-c) (P-d)), P for the semi-perimeter
+
+Regular n-gon:
+R circumcircle radius, r is the radius of the inscribed circle
+Centre angle A = 2PI / n
+Interior angle C = (n-2) PI / n
+side length a = 2sqrt (R^2 - r^2) = 2Rsin (A / 2) = the 2rtan (A / 2)
+Area S = nar / 2 = nr ^ 2tan (A / 2) = nR ^ 2sin (A) / 2 = na ^ 2 / (4tan (A / 2))
+
+Circle:
+arc length l = rA
+Chord length a = 2sqrt (2hr-h ^ 2) = 2rsin (A / 2)
+height of polar cap h=r-sqrt(r^2-a^2/4)=r(1-cos(A/2))=atan(A/4)/2
+fan-shaped area, S1 = rl / 2 = r ^ 2A / 2
+area of polar cap S2=(rl-a(r-h))/2=r^2(A-sin(A))/2
+fan's cg: angle = angle bisector, 2*r*sin(angle)/3/angle
+
+Prism:
+volume V = Ah, A bottom area, h is high
+side area S = lp, l is the edge length, p is the straight section perimeter
+whole area T = S +2 A
+
+Pyramid:
+volume V = Ah / 3, A to the bottom area, h is high
+(Regular pyramid)
+side area S = lp / 2, l is slant height, p is an underside perimeter
+whole area T = S + A
+
+Bevel:
+volume V = (A1 + A2 + sqrt (A1A2)) h / 3, A1,A2 for the upper and lower bottom area, h is high
+(The following is a positive bevel)
+side area S = (p1 + p2) L / 2, p1.p2 the perimeter of the top and bottom, l Slant
+Whole area T = S + A1 + A2
+
+Cylinder:
+Side area S = 2PIrh
+the whole area T = 2PIr (h + r)
+Volume V = PIr ^ 2h
+
+Cone:
+slant side l = sqrt (h ^ 2 + r ^ 2)
+side area S = PIrl
+Whole area T = pir (L + r)
+volume V = PIr ^ 2h / 3
+
+Slanted Cylinder:
+bus l = sqrt (h ^ 2 + (r1 - r2) ^ 2)
+the side area S = PI (R1 + R2) l
+Whole area T = PIr1 (L + r1) + PIr2 (l + r2)
+Volume V = PI (R1 ^ 2 + R2 ^ 2 + R1R2) h / 3
+
+Sphere:
+The whole area of T = 4PIr ^ 2
+Volume V = 4PIr ^ 3/3
+
+Tables:
+Side area S = 2PIrh
+full-area T = PI (2rh + r1 ^ 2 + r2 ^ 2)
+3 volume V = PIh(3(r1^2+r2^2)+h^2)/6
+
+Ball fan:
+A full area T = PIr (2h + r0), h is ball crown high, r0 is the radius of the bottom surface of the ball crown
+Volume V = 2PIr ^ 2H / 3
